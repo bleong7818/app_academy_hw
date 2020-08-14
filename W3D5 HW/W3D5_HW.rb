@@ -37,6 +37,29 @@ class Queue
     p @queue[-1]
   end
 
-
 end
 
+class Map
+
+
+  def initialize(map)
+    @map = map
+  end
+
+  def set(key, value)
+    @map << [key, value]
+  end
+
+  def get(key)
+    
+  end
+
+  def delete(key)
+
+  end
+
+  def show
+
+  end
+
+end
