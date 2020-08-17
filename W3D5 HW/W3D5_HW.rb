@@ -1,21 +1,36 @@
 class Stack
 
-
-    def initialize(stack)
-      @stack = stack
+    def initialize
+      @vault= vault
     end
 
     def push(el)
-      @stack << el
+      vault << el
+      self
     end
 
     def pop
-      @stack.pop
+      vault.pop
     end
 
     def peek
-      puts @stack[-1]
+      puts vault[-1]
     end
+
+    def size
+      vault.length
+    end
+
+    def empty?
+      vault.empty?
+    end
+
+    def inspect
+      "#<Stack:#{self.object_id}>"
+    end
+
+    private
+    attr_reader :vault
   end
 
 class Queue
