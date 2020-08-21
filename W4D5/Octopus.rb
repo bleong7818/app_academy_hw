@@ -78,7 +78,7 @@ tiles_hash = {
     "left-up" => 7
 }
 
-def constant_dance(direction, hash)
+def constant_dance(direction, tiles_hash)
     tiles_hash[direction]
 end
 
