@@ -1,0 +1,32 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: lightgreen;
+}
+
+.session {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    list-style: none;
+}
+
+.login {
+    list-style: none;
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+.misc {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.stuff {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
